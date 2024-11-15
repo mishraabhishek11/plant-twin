@@ -1,0 +1,107 @@
+{
+    "id": "7b02aa08-5f06-4ac5-ae2b-fb582a2e8372",
+    "root_node": {
+        "level": 1,
+        "id": "1",
+        "children": [
+            {
+                "level": 1,
+                "id": "2",
+                "children": [
+                    {
+                        "level": 1,
+                        "id": "3",
+                        "children": [
+                            {
+                                "level": 1,
+                                "id": "4",
+                                "children": [],
+                                "fruits": [
+                                    {
+                                        "development_state": "MATURE_GREEN_FRUIT",
+                                        "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                                    }
+                                ]
+                            },
+                            {
+                                "level": 2,
+                                "id": "3a",
+                                "children": [],
+                                "fruits": [
+                                    {
+                                        "development_state": "BREAKER_STAGE_FRUIT",
+                                        "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                                    }
+                                ]
+                            }
+                        ],
+                        "fruits": [
+                            {
+                                "development_state": "HARVESTABLE_FRUIT",
+                                "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": "2a",
+                        "children": [
+                            {
+                                "level": 2,
+                                "id": "2b",
+                                "children": [],
+                                "fruits": [
+                                    {
+                                        "development_state": "BREAKER_STAGE_FRUIT",
+                                        "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                                    }
+                                ]
+                            }
+                        ],
+                        "fruits": [
+                            {
+                                "development_state": "HARVESTABLE_FRUIT",
+                                "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                            }
+                        ]
+                    }
+                ],
+                "fruits": [
+                    {
+                        "development_state": "HARVESTABLE_FRUIT",
+                        "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                    }
+                ]
+            },
+            {
+                "level": 2,
+                "id": "1a",
+                "children": [
+                    {
+                        "level": 2,
+                        "id": "1b",
+                        "children": [],
+                        "fruits": [
+                            {
+                                "development_state": "HARVESTABLE_FRUIT",
+                                "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                            }
+                        ]
+                    }
+                ],
+                "fruits": [
+                    {
+                        "development_state": "HARVESTABLE_FRUIT",
+                        "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+                    }
+                ]
+            }
+        ],
+        "fruits": [
+            {
+                "development_state": "HARVESTABLE_FRUIT",
+                "id": "fb532607-a858-4ad2-98f9-7aff6f682e92"
+            }
+        ]
+    }
+}
