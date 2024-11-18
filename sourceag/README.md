@@ -22,11 +22,11 @@ In the output, you'll find options to open the app in a
 
 Used framework or libraries listed below for this project.
 
-Expo - Official React Native team recommends Expo as a framework to begin the project.
-Typescript - programming language
-Expo Router - file based navigation, for screen navigation
-Axios - to call backend REST APIs
-SVG - Scaler vector graphics, are used to generate tree stems and nodes.
+1. Expo - Official React Native team recommends Expo as a framework to begin the project.
+2. Typescript - programming language
+3. Expo Router - file based navigation, for screen navigation
+4. Axios - to call backend REST APIs
+5. SVG - Scaler vector graphics, are used to generate tree stems and nodes.
 
 ## Code Standard
 
