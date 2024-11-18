@@ -1,0 +1,52 @@
+import { render } from "@testing-library/react-native";
+
+import DigitalTwinTree from "../DigitalTwinTree";
+
+describe("<DigitalTwinTree />", () => {
+  test("Text renders correctly on DigitalTwinTree", () => {
+    const tree = render(
+      <DigitalTwinTree
+        data={{
+          id: "7b02aa08-5f06-4ac5-ae2b-fb582a2e8372",
+          root_node: {
+            level: 1,
+            id: "1",
+            children: [
+              {
+                level: 1,
+                id: "2",
+                children: [],
+                fruits: [
+                  {
+                    development_state: "HARVESTABLE_FRUIT",
+                    id: "fb532607-a858-4ad2-98f9-7aff6f682e92",
+                  },
+                ],
+              },
+              {
+                level: 2,
+                id: "1a",
+                children: [],
+                fruits: [
+                  {
+                    development_state: "HARVESTABLE_FRUIT",
+                    id: "fb532607-a858-4ad2-98f9-7aff6f682e92",
+                  },
+                ],
+              },
+            ],
+            fruits: [
+              {
+                development_state: "HARVESTABLE_FRUIT",
+                id: "fb532607-a858-4ad2-98f9-7aff6f682e92",
+              },
+            ],
+          },
+        }}
+        onDrawerStatusChange={jest.fn}
+      />
+    );
+
+    expect(tree).toMatchSnapshot();
+  });
+});

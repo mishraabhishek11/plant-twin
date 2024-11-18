@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BranchNode /> Text renders correctly on BranchNode 1`] = `
+[
+  <RNSVGCircle
+    cx={100}
+    cy={100}
+    fill={
+      {
+        "payload": 4293718493,
+        "type": 0,
+      }
+    }
+    opacity={0.8}
+    propList={
+      [
+        "fill",
+        "stroke",
+        "strokeWidth",
+      ]
+    }
+    r={15}
+    stroke={
+      {
+        "payload": 4289309097,
+        "type": 0,
+      }
+    }
+    strokeWidth="0.5"
+    testID="Circle_id"
+  />,
+  <RNSVGText
+    alignmentBaseline="central"
+    content={null}
+    dx={[]}
+    dy={[]}
+    fill={
+      {
+        "payload": 4278190080,
+        "type": 0,
+      }
+    }
+    font={
+      {
+        "textAnchor": "middle",
+      }
+    }
+    rotate={[]}
+    testID="Label_id"
+    x={
+      [
+        100,
+      ]
+    }
+    y={
+      [
+        100,
+      ]
+    }
+  >
+    <RNSVGTSpan
+      content="id"
+      dx={[]}
+      dy={[]}
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+      font={{}}
+      rotate={[]}
+      x={[]}
+      y={[]}
+    />
+  </RNSVGText>,
+]
+`;
