@@ -1,6 +1,6 @@
-# Welcome to your Source AG Expo app 👋
+# Source AG Assignment App
 
-This is an [Expo]() project created for Source AG test assignment.
+This is an project created for Source AG test assignment.
 
 ## To run app
 
@@ -68,3 +68,14 @@ For unit testing, the Jest and React testing libraries were used. No major issue
 10. When the new development stage button is pressed, the App will request the backend API to update stem information using the StemId and updated JSON.
 11. After successfully updating the development stage on backend, API will provide updated stem detail.
 12. The app will refresh the home screen with updated stem information.
+
+## How to change Stem Id for testing
+
+To alter the stem ID and a few other adjustable values, please use the GlobalConstants file.
+
+![Global Constants](assets/images/support/GlobalConstants.png)
+
+1. Can modify the stem ID for testing.
+2. Can update the stem node.
+3. Can adjust the stem thickness.
+4. Can update the main stem height.
