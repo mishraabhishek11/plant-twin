@@ -41,7 +41,7 @@ Used framework or libraries listed below for this project.
 
 ## Known Issues
 
-1. As dont have Tablet, didn't test on Tablet though app is enabled for tablte devices.
+1. I didn't test on a tablet because I don't have one, despite the fact that the application is enabled for tablet devices.
 
 ## Project Structure
 
@@ -49,13 +49,13 @@ Used framework or libraries listed below for this project.
 
 ## Testing done
 
-1. App will work in portrait mode only.
+1. The app will only work in portrait mode.
 2. Enabled for tablets, by enabling in app.json
-   "ios": {
+   ios": {
    "supportsTablet": true
    },
    To support Android for tablet devices, need to manage from Play Store.
-3. All testing done on iPhone 15 with Expo Go.
+3. All testing was done on the iPhone 15 using Expo Go.
 
 ## How solution works
 
@@ -74,25 +74,25 @@ Used framework or libraries listed below for this project.
 
 ## How to change Stem Id for testing
 
-To alter the stem ID and a few other adjustable values, please use the GlobalConstants file.
+To change the stem ID and a few other variables, please use the GlobalConstants file.
 
 ![Global Constants](assets/images/support/GlobalConstants.png)
 
-1. Can modify the stem ID for testing.
-2. Can update the stem node.
+1. The stem ID can be modified for testing purposes.
+2. Can update the stem node label radius.
 3. Can adjust the stem thickness.
-4. Can update the main stem height.
+4. Can update the main stem segment height.
 
 ## Working App
 
 [![Working App](assets/images/support/WorkingSolution.gif)]
 
-## Code Standard
+## Lint
 
 ESlint was used for code standards; no Lint issues were discovered.
 ![Lint run result](assets/images/support/lint_result.png)
 
 ## Unit testing
 
-For unit testing, the Jest and React testing libraries were used. No major issue found.
+Unit testing was performed using the Jest and React testing library. There were no major issues discovered.
 ![Unit test Result](assets/images/support/UnitTestResult.png)
