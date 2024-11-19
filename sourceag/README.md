@@ -83,6 +83,10 @@ To alter the stem ID and a few other adjustable values, please use the GlobalCon
 3. Can adjust the stem thickness.
 4. Can update the main stem height.
 
+## Working App
+
+[![Watch the video](assets/images/support/workingSolutionThumbnail.jpg)](assets/images/support/WorkingSolution.mp4)
+
 ## Code Standard
 
 ESlint was used for code standards; no Lint issues were discovered.
