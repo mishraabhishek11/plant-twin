@@ -1,6 +1,6 @@
 # Source AG Assignment App
 
-This is an project created for Source AG test assignment.
+This is an app created for Source AG assignment.
 
 ## To run app
 
@@ -14,7 +14,7 @@ This is an project created for Source AG test assignment.
 
    npm start
 
-In the output, you'll find options to open the app in a
+In the output, will find options to open the app in a
 
 - [Android emulator]()
 - [iOS simulator]()
@@ -25,20 +25,23 @@ In the output, you'll find options to open the app in a
 Used framework or libraries listed below for this project.
 
 1. Expo - Official React Native team recommends Expo as a framework to begin the project.
-2. Typescript - programming language
-3. Expo Router - file based navigation, for screen navigation
-4. Axios - to call backend REST APIs
-5. SVG - Scaler vector graphics, are used to generate tree stems and nodes.
+2. Typescript - programming language.
+3. Expo Router - file based navigation, for screen navigation.
+4. Axios - to call backend REST APIs.
+5. SVG - Scalable Vector Graphics, are used to generate tree stems and nodes.
 
-## Code Standard
+## Assumptions
 
-ESlint was used for code standards; no Lint issues were discovered.
-![Lint run result](assets/images/support/lint_result.png)
+1. The main stem height for one segment (i.e., from node 1 to node 2) is 150.
+2. The node label circle radius is 15.
+3. The stem color is Android Green ("#A7BA3F").
+4. The main stem thickness is 9 and the branch stem thickness is 6 (two-thirds of the main stem thickness).
+5. The width and height of the tree screen are the same as the device window's width and height.
+6. App will work in portrait mode only.
 
-## Unit testing
+## Known Issues
 
-For unit testing, the Jest and React testing libraries were used. No major issue found.
-![Unit test Result](assets/images/support/UnitTestResult.png)
+1. As dont have Tablet, didn't test on Tablet though app is enabled for tablte devices.
 
 ## Project Structure
 
@@ -51,8 +54,8 @@ For unit testing, the Jest and React testing libraries were used. No major issue
    "ios": {
    "supportsTablet": true
    },
-   To support Android, need to manages from Play Store
-3. All testing done on iPhone 15 with Expo Go (due to no tablet device available)
+   To support Android for tablet devices, need to manage from Play Store.
+3. All testing done on iPhone 15 with Expo Go.
 
 ## How solution works
 
@@ -61,7 +64,7 @@ For unit testing, the Jest and React testing libraries were used. No major issue
 3. After receiving a response from the backend, the component will save API response data in the component state (using by useState) as stemDetail.
 4. The Home component will pass as props stem detail to the DigitalTwinTree component, which will render the tree.
 5. The DigitalTwinTree component calculates all tree stem coordinates.
-6. Once DigitalTwinTree has completed all calculations, the component will render all stems using Scaler Vector Graphics (SVG).
+6. Once DigitalTwinTree has completed all calculations, the component will render all stems using Scalable Vector Graphics (SVG).
 7. DigitalTwinTree renders stems, joints node with childId, and fruits.
 8. To update the fruit development stage, the user can press the fruit, and a side drawer will appear from the right (using React Native Animated for animation).
 9. The drawer will display all development stages; the user will select any new development stage.
@@ -79,3 +82,13 @@ To alter the stem ID and a few other adjustable values, please use the GlobalCon
 2. Can update the stem node.
 3. Can adjust the stem thickness.
 4. Can update the main stem height.
+
+## Code Standard
+
+ESlint was used for code standards; no Lint issues were discovered.
+![Lint run result](assets/images/support/lint_result.png)
+
+## Unit testing
+
+For unit testing, the Jest and React testing libraries were used. No major issue found.
+![Unit test Result](assets/images/support/UnitTestResult.png)
