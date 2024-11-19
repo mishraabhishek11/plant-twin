@@ -85,7 +85,7 @@ To alter the stem ID and a few other adjustable values, please use the GlobalCon
 
 ## Working App
 
-[![Watch the video](assets/images/support/workingSolutionThumbnail.jpg)](assets/images/support/WorkingSolution.mp4)
+[![Working App](assets/images/support/workingSolutionThumbnail.gif)]
 
 ## Code Standard
 
