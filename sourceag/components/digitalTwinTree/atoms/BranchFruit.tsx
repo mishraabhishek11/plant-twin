@@ -2,14 +2,15 @@ import { TouchableOpacity, View } from "react-native";
 import FruitStageImage from "@/components/fruitStages/FruitStageImage";
 import { Stem } from "../DigitalTwinTree.type";
 import { styles } from "./BranchFruit.style";
+import { useContext } from "react";
+import { ChildFruitContext } from "@/app";
 
 export default function BranchFruit(props: {
   stems: Stem[];
   nodeRadius: number;
-  onFruitSelection: (childId: string, FruitId: string) => void;
-  childFruit: { childId: string; fruitId: string };
 }) {
-  const { stems, nodeRadius, onFruitSelection, childFruit } = props;
+  const { stems, nodeRadius } = props;
+  const { onFruitSelection, childFruit } = useContext(ChildFruitContext);
 
   return (
     <>

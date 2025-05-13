@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { createContext, useEffect, useRef, useState } from "react";
 import {
   SafeAreaView,
   View,
@@ -17,6 +17,11 @@ import { stemID } from "@/constants/GlobalConstant";
 import { Colors } from "@/constants/Colors";
 import { Styles } from "./index.style";
 import { updateFruitStage } from "./index.helper";
+
+export const ChildFruitContext = createContext({
+  childFruit: { childId: "", fruitId: "" },
+  onFruitSelection: (childId: string, fruitId: string) => {},
+});
 
 /**
  *
@@ -107,11 +112,14 @@ function Home() {
         <View style={styles.container}>
           {stemDetail ? (
             <>
-              <DigitalTwinTree
-                onFruitSelection={onFruitSelection}
-                data={stemDetail}
-                childFruit={childFruit}
-              />
+              <ChildFruitContext.Provider
+                value={{
+                  childFruit,
+                  onFruitSelection,
+                }}
+              >
+                <DigitalTwinTree data={stemDetail} />
+              </ChildFruitContext.Provider>
               <Animated.View
                 style={[
                   styles.fruitStageDrawerContainer,

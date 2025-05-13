@@ -1,5 +1,6 @@
 import { render } from "@testing-library/react-native";
 
+// eslint-disable-next-line import/namespace
 import Home from "../index";
 
 describe("<Home />", () => {

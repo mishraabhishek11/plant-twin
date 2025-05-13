@@ -37,12 +37,8 @@ import {
  * }} props
  * @return {*}
  */
-const DigitalTwinTree = (props: {
-  data: { id: string; root_node: Child };
-  onFruitSelection: (childId: string, fruitId: string) => void;
-  childFruit: { childId: string; fruitId: string };
-}) => {
-  const { data, onFruitSelection, childFruit } = props;
+const DigitalTwinTree = (props: { data: { id: string; root_node: Child } }) => {
+  const { data } = props;
   const colorScheme = useColorScheme();
   const stemColor = Colors[colorScheme ?? "light"].androidGreen;
 
@@ -285,12 +281,7 @@ const DigitalTwinTree = (props: {
           );
         })}
       </Svg>
-      <BranchFruit
-        stems={stems}
-        nodeRadius={nodeRadius}
-        onFruitSelection={onFruitSelection}
-        childFruit={childFruit}
-      />
+      <BranchFruit stems={stems} nodeRadius={nodeRadius} />
     </View>
   );
 };
