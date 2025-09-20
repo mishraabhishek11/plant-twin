@@ -1,6 +1,6 @@
-# Source AG Assignment App
+# Digital Twin App
 
-This is an app created for Source AG assignment.
+This is an app to show digital twin of a plant and its frult with diffrent satges.
 
 ## To run app
 
