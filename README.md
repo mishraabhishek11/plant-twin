@@ -45,7 +45,7 @@ Used framework or libraries listed below for this project.
 
 ## Project Structure
 
-![Project's files structure](assets/images/support/ProjectFileStructure.png)
+![Project's files structure](sourceag/assets/images/support/ProjectFileStructure.png)
 
 ## Testing done
 
@@ -76,7 +76,7 @@ Used framework or libraries listed below for this project.
 
 To change the stem ID and a few other variables, please use the GlobalConstants file.
 
-![Global Constants](assets/images/support/GlobalConstants.png)
+![Global Constants](sourceag/assets/images/support/GlobalConstants.png)
 
 1. The stem ID can be modified for testing purposes.
 2. Can update the stem node label radius.
@@ -85,14 +85,14 @@ To change the stem ID and a few other variables, please use the GlobalConstants 
 
 ## Working App
 
-[![Working App](assets/images/support/WorkingSolution.gif)]
+[![Working App](sourceag/assets/images/support/WorkingSolution.gif)]
 
 ## Lint
 
 ESlint was used for code standards; no Lint issues were discovered.
-![Lint run result](assets/images/support/lint_result.png)
+![Lint run result](sourceag/assets/images/support/lint_result.png)
 
 ## Unit testing
 
 Unit testing was performed using the Jest and React testing library. There were no major issues discovered.
-![Unit test Result](assets/images/support/UnitTestResult.png)
+![Unit test Result](sourceag/assets/images/support/UnitTestResult.png)
